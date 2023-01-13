@@ -7,6 +7,7 @@ body {
     font-size: 1rem;
     font-family: 'League Spartan', sans-serif;
     color: hsl(300, 43%, 22%);
+    line-height: 1.6;
 }
 
 
@@ -17,6 +18,8 @@ body {
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    margin-top: 2em;
+    line-height: .8;
 }
 
 .main-body {
@@ -64,10 +67,20 @@ main {
 
 .review-container {
     text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+.review {
+    background-color: hsl(300, 24%, 96%);
+    padding: .7em;
+    margin: 1em 0;
+    border-radius: 5px;
 }
 
 .review-body {
-    margin-top: 0;
+    margin-top: .4em;
+    margin-bottom: 0;
 }
 
 .testimonial-section {
