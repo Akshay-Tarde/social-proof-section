@@ -6,4 +6,38 @@ body {
     margin: 0;
     font-size: 1rem;
     font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+}
+
+
+
+/* TYPOGRAPHY */
+
+.main-body {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.review-body {
+    font-weight: 700;
+}
+
+.testimonial {
+    color: hsl(0, 0%, 100%);
+    background: hsl(300, 43%, 22%);
+}
+
+.testimonial-title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.testimonial-subtitle {
+    margin-top: 0;
+    color: hsl(333, 80%, 67%);
+}
+
+.testimonial-body {
+    margin-bottom: 0;
+    color: hsl(300, 24%, 96%);
 }
