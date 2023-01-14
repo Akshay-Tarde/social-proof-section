@@ -130,13 +130,13 @@ main {
 
 @media (min-width: 900px) {
     .container {
-        width: 90%;
+        width: 96%;
     }
 
     main {
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     .main-header {
@@ -157,12 +157,14 @@ main {
     .review-container {
         width: 50%;
         font-size: .8rem;
+        margin-top: 5.5em;
     }
 
     .review {
         display: flex;
         margin-top: .5em;
         margin-bottom: 0;
+        padding: .4em;
         justify-content: space-around;
         align-items: baseline;
     }
@@ -170,6 +172,29 @@ main {
     .review-body {
         margin-top: 0;
         margin-left: 1em;
+    }
+
+    /* Grid on the review section */
+    .review-container {
+        display: grid;
+        grid-template-areas:
+            "review-1 review-1 review-1 ...... ........"
+            "........ review-2 review-2 review-2 ......"
+            "........ ........ review-3 review-3 review-3";
+        grid-template-columns: repeat(2, 20px) auto repeat(2, 20px);
+        grid-row-gap: 1em;
+    }
+
+    .review-1 {
+        grid-area: review-1;
+    }
+
+    .review-2 {
+        grid-area: review-2;
+    }
+
+    .review-3 {
+        grid-area: review-3;
     }
 
     /* Grid on the testimonial section */
