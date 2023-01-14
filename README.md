@@ -27,6 +27,7 @@ Desktop Layout
 ![](./screenshots/Frontend%20Mentor%20Social%20proof%20section%20Desktop%20layout.png)
 
 Mobile Layout
+
 ![](./screenshots/Frontend%20Mentor%20Social%20proof%20section%20mobile%20layout.png)
 
 ### Links
