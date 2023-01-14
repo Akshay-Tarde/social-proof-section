@@ -24,6 +24,7 @@ Users should be able to:
 
 ### Screenshot
 Desktop Layout
+
 ![](./screenshots/Frontend%20Mentor%20Social%20proof%20section%20Desktop%20layout.png)
 
 Mobile Layout
@@ -32,8 +33,8 @@ Mobile Layout
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-proof-section-K7_63ojNUC)
-- Live Site URL: [Add live site URL here](https://social-proof-section-amt.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-K7_63ojNUC)
+- Live Site URL: [Live Site URL](https://social-proof-section-amt.netlify.app/)
 
 ## My process
 I used both flexbox and grid for different sections of the site. 
