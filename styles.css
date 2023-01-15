@@ -159,7 +159,8 @@ footer {
     text-align: center;
 }
 
-a:focus {
+.footer-links:focus,
+a:hover {
     color: black;
 }
 
